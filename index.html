@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>BMI: Body Mass Index</title>
+  <meta name="description" content="BMI, Indice di massa corporea">
+  <meta name="author" content="Alessandro Visigalli">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <script>
+	/* Formula per il BMI */
+  </script>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+		<img src=images/cover.svg class=u-full-width>
+		<center>
+		<h1>B.M.I.</h1>
+		</center>
+		<h3>Formula del BMI</h3>
+		<p>La formula del BMI consiste nella divisione
+		del peso di un soggetto <b>adulto</b>, espresso
+		in chilogrammi (kg), per il quadrato della sua
+		statura espressa in metri (m).<br>
+		Il calcolo del BMI si basa dunque sul rapporto
+		kg/m<sup>2</sup>, che più dettagliatamente 
+		corrisponde a:<br>
+		<code>
+		BMI = peso in kg / (statura in metri)<sup>2</sup>
+		</code>
+		</p>
+		<p>Inserisci i tuoi dati</p>
+		<form name=bmi>
+			Peso in Kg <br>
+			<input name=peso type=number step=0.1 required placeholder="Usa il . per i decimali"><br>
+			Altezza in metri <br>
+			<input name=altezza type=number step=0.1 required placeholder="Usa il . per i decimali"><br>
+			<br>
+			<input type=reset value=Annulla> 
+			<button type=button class=button-primary>Calcola</button>
+			
+		</form>
+	  </div>	  
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
